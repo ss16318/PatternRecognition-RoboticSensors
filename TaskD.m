@@ -251,7 +251,7 @@ ylabel ( 'Out-of-bag classification error' , 'FontSize' , 16 );
 
 %displays some trees
 view(B.Trees{1},'Mode','graph')
-view(B.Trees{5},'Mode','graph')
+%view(B.Trees{5},'Mode','graph') %commented out for report to reduce number of windows that open up
 
 %get class predictions for test data using trained bagging algorithm
 pred = predict( B , testPVT(:,1:3) );
