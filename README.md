@@ -1,4 +1,4 @@
-# PatternRecognitionCW
+# Pattern Recognition of Tactile Robotic Sensors
 
 This coursework investigated the ability of robotic sensors to distinguish between different objects using supervised and unsupervised classification techniques such as LDA, PCA and clustering.
 
